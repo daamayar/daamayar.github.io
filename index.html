@@ -4,162 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diego Amaya - Professional Profile</title>
-    <style>
-        /* General Styles */
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
-        }
-
-        .container {
-            width: 90%;
-            max-width: 800px;
-            margin: 30px auto;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        h1, h2 {
-            color: #444;
-        }
-
-        h1 {
-            text-align: center;
-            font-size: 2.5em;
-            margin-bottom: 10px;
-        }
-
-        h2 {
-            border-bottom: 2px solid #ddd;
-            padding-bottom: 5px;
-            margin-top: 30px;
-        }
-
-        p, ul {
-            font-size: 1em;
-            line-height: 1.6;
-        }
-
-        ul {
-            list-style-type: none;
-            padding-left: 0;
-        }
-
-        li {
-            margin-bottom: 10px;
-        }
-
-        /* Button Styling */
-        .button {
-            display: inline-block;
-            background-color: #4CAF50; /* Green */
-            color: white; /* White text */
-            padding: 10px 20px; /* Padding for size */
-            font-size: 16px; /* Font size */
-            text-align: center; /* Center text */
-            text-decoration: none; /* Remove underline */
-            border-radius: 5px; /* Rounded corners */
-            border: none; /* No border */
-            cursor: pointer; /* Pointer on hover */
-            transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
-        }
-
-        .button:hover {
-            background-color: #45a049; /* Darker green on hover */
-            transform: scale(1.05); /* Slight zoom effect on hover */
-        }
-
-        /* Contact Information Styling */
-        .contact-info p {
-            margin-bottom: 5px;
-        }
-
-        /* Footer Styling */
-        footer {
-            text-align: center;
-            margin-top: 20px;
-            font-size: 0.9em;
-            color: #666;
-        }
-    </style>
+    <link rel="stylesheet" href="assets/css/main.css"> <!-- Link to the CSS file -->
 </head>
 <body>
-    <div class="container">
-        <h1>Diego Amaya</h1>
-        <p><strong>PhD in Computer Science</strong></p>
-
-        <!-- Contact Information -->
-        <div class="contact-info">
-          <h2>Contact Information</h2>
-          <p>Email: daamayar@gmail.com</p>
-          <p>Phone: +33 6 0610286447</p>
-          <p>Location: Nancy, France</p>
+    <!-- Header Section -->
+    <header id="header">
+        <div class="inner">
+            <h1>Diego Amaya</h1>
+            <p>PhD in Computer Science | Researcher | Educator</p>
         </div>
+    </header>
 
-        <!-- Languages -->
-        <h2>Languages</h2>
-        <ul>
-          <li>English (Advanced)</li>
-          <li>French (Advanced)</li>
-          <li>Spanish (Native)</li>
-        </ul>
+    <!-- About Section -->
+    <section id="about">
+        <div class="inner">
+            <h2>About Me</h2>
+            <p>I am a PhD candidate specializing in data science, structural bioinformatics, and immunology. My work focuses on exploring HLA antigenicity using machine learning and molecular dynamics.</p>
+        </div>
+    </section>
 
-        <!-- Technical Skills -->
-        <h2>Technical Skills</h2>
-        <ul>
-          <li>Programming: Python, Bash (Advanced), Git (Intermediate)</li>
-          <li>Machine Learning/Data Mining Tools</li>
-          <li>High-Performance Computing (HPC): OAR, Slurm, Docker</li>
-          <li>Molecular Docking and Dynamics Simulations</li>
-          <li>Omics Tools and Techniques</li>
-          <li>Databases and Big Data Technologies</li>
-        </ul>
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="inner">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>Programming: Python, Bash (Advanced), Git (Intermediate)</li>
+                <li>Machine Learning/Data Mining: Scikit-Learn, PyTorch, Keras</li>
+                <li>HPC Tools: OAR, Slurm, Docker</li>
+                <li>Molecular Docking: Rosetta, ATTRACT</li>
+                <li>Molecular Dynamics Simulations: NAMD</li>
+                <li>Omics Tools: gatk, bwa, VEP</li>
+            </ul>
+        </div>
+    </section>
 
-        <!-- Education -->
-        <h2>Education</h2>
-        <ul>
-          <li><strong>PhD in Computer Science</strong>, Université de Lorraine - INRIA - INSERM (Oct. 2019 - July 2024)
-              - Thesis on HLA antigenicity exploration using data science.</li>
-          <li><strong>Master in Biomedical Engineering</strong>, Universidad Nacional de Colombia (Feb. 2017 - June 2019)
-              - Focused on neo-antigens and bioinformatics.</li>
-          <li><strong>Physics Engineering</strong>, Universidad Nacional de Colombia (Feb. 2008 - Aug. 2014)
-              - Academic exchange at INSA Toulouse.</li>
-        </ul>
+    <!-- Publications Section -->
+    <section id="publications">
+        <div class="inner">
+            <h2>Scientific Publications</h2>
+            <ul>
+                <!-- Add publications manually -->
+                <li>"Title of Paper 1", Journal Name, Year.</li>
+                <li>"Title of Paper 2", Journal Name, Year.</li>
+            </ul>
+            <a href="https://scholar.google.com/citations?hl=fr&user=CNbMzuQAAAAJ" class="button">View More on Google Scholar</a>
+        </div>
+    </section>
 
-        <!-- Work Experience -->
-        <h2>Work Experience</h2>
-        <ul>
-          <li><strong>Research Engineer</strong>, CNRS Délégation Centre Est (Sept. 2023 - May 2024)
-              - Developed visualization interfaces for molecular dynamics data.</li>
-          <li><strong>University Teacher (ATER)</strong>, Université de Lorraine - Télécom Nancy (Oct. 2022 - Aug. 2023)
-              - Taught data structures and big data.</li>
-          <li><strong>Head of International Academic Agreements</strong>, Universidad Nacional de Colombia (Oct. 2014 - Sep. 2019)
-              - Managed international student exchange agreements.</li>
-        </ul>
-
-        <!-- Scientific Publications Section -->
-         <h2>Scientific Publications</h2>
-         <!-- Add your publications manually here -->
-         <!-- Example:
-         <ul>
-             <li>"Title of Paper", Journal Name, Year.</li>
-             ...
-         </ul>-->
-        
-         <!-- Google Scholar Button -->
-         <h2>Google Scholar Profile</h2>
-         <p>Check out my scientific publications and citations on my Google Scholar profile:</p>
-         <a href="https://scholar.google.com/citations?hl=fr&user=CNbMzuQAAAAJ" target="_blank" class="button">Visit My Google Scholar</a>
-
-    </div><!-- End of container -->
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="inner">
+            <h2>Contact Me</h2>
+            <p>Email: daamayar@gmail.com | Phone: +33 6 0610286447</p>
+        </div>
+    </section>
 
     <!-- Footer -->
-    <footer>&copy; Diego Amaya | All Rights Reserved | Designed in HTML & CSS</footer>
+    <footer id="footer">
+        <p>&copy; 2024 Diego Amaya. All rights reserved.</p>
+    </footer>
 
 </body>
 </html>
