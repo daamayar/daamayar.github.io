@@ -5,16 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diego Amaya - Professional Profile</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 20px; }
-        h1, h2 { color: #333; }
-        p { line-height: 1.6; }
-        ul { list-style-type: none; padding: 0; }
-        li { margin-bottom: 10px; }
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
 
-        /* Button styling */
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 30px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #444;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+
+        p, ul {
+            font-size: 1em;
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        /* Button Styling */
         .button {
             display: inline-block;
-            background-color: #4CAF50; /* Green background */
+            background-color: #4CAF50; /* Green */
             color: white; /* White text */
             padding: 10px 20px; /* Padding for size */
             font-size: 16px; /* Font size */
@@ -31,65 +74,92 @@
             transform: scale(1.05); /* Slight zoom effect on hover */
         }
 
+        /* Contact Information Styling */
+        .contact-info p {
+            margin-bottom: 5px;
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #666;
+        }
     </style>
 </head>
 <body>
-    <h1>Diego Amaya</h1>
-    <p>PhD in Computer Science</p>
+    <div class="container">
+        <h1>Diego Amaya</h1>
+        <p><strong>PhD in Computer Science</strong></p>
 
-    <h2>Contact Information</h2>
-    <p>Email: daamayar@gmail.com</p>
-    <p>Location: Nancy, France</p>
+        <!-- Contact Information -->
+        <div class="contact-info">
+          <h2>Contact Information</h2>
+          <p>Email: daamayar@gmail.com</p>
+          <p>Phone: +33 6 0610286447</p>
+          <p>Location: Nancy, France</p>
+        </div>
 
-    <h2>Languages</h2>
-    <ul>
-        <li>English (Advanced)</li>
-        <li>French (Advanced)</li>
-        <li>Spanish (Native)</li>
-    </ul>
+        <!-- Languages -->
+        <h2>Languages</h2>
+        <ul>
+          <li>English (Advanced)</li>
+          <li>French (Advanced)</li>
+          <li>Spanish (Native)</li>
+        </ul>
 
-    <h2>Technical Skills</h2>
-    <ul>
-        <li>Programming: Python, Bash (Advanced), Git (Intermediate)</li>
-        <li>Machine Learning/Data Mining: Scikit-Learn, WEKA (Advanced), PyTorch, Keras (Intermediate)</li>
-        <li>HPC: OAR, Slurm, Cloud Computing (Advanced), Docker, OpenMPI (Intermediate)</li>
-        <li>Databases: SQLite, MongoDB, Hadoop, Spark (Intermediate)</li>
-        <li>Molecular Docking: Rosetta, ATTRACT, GOLD (Advanced)</li>
-        <li>Molecular Dynamics Simulations: NAMD (Advanced)</li>
-        <li>Omics: gatk, bwa, hisat2, VEP, pVACseq, cufflinks, stringTie, samtools, picard (Intermediate)</li>
-    </ul>
+        <!-- Technical Skills -->
+        <h2>Technical Skills</h2>
+        <ul>
+          <li>Programming: Python, Bash (Advanced), Git (Intermediate)</li>
+          <li>Machine Learning/Data Mining Tools</li>
+          <li>High-Performance Computing (HPC): OAR, Slurm, Docker</li>
+          <li>Molecular Docking and Dynamics Simulations</li>
+          <li>Omics Tools and Techniques</li>
+          <li>Databases and Big Data Technologies</li>
+        </ul>
 
-    <h2>Education</h2>
-    <ul>
-        <li><strong>PhD in Computer Science</strong>, Université de Lorraine - INRIA - INSERM (Oct. 2019 - July 2024)
-            - Thesis: Data science approach for the exploration of HLA antigenicity based on 3D structures and molecular dynamics.</li>
-        <li><strong>Master in Biomedical Engineering</strong>, Universidad Nacional de Colombia (Feb. 2017 - June 2019)
-            - Thesis: Implementation of an in-silico strategy for the identification of personalized therapeutic vaccine candidate in tumor of a PEComa patient.</li>
-        <li><strong>Physics Engineering</strong>, Universidad Nacional de Colombia (Feb. 2008 - Aug. 2014)
-            - Academic exchange at INSA Toulouse.</li>
-    </ul>
+        <!-- Education -->
+        <h2>Education</h2>
+        <ul>
+          <li><strong>PhD in Computer Science</strong>, Université de Lorraine - INRIA - INSERM (Oct. 2019 - July 2024)
+              - Thesis on HLA antigenicity exploration using data science.</li>
+          <li><strong>Master in Biomedical Engineering</strong>, Universidad Nacional de Colombia (Feb. 2017 - June 2019)
+              - Focused on neo-antigens and bioinformatics.</li>
+          <li><strong>Physics Engineering</strong>, Universidad Nacional de Colombia (Feb. 2008 - Aug. 2014)
+              - Academic exchange at INSA Toulouse.</li>
+        </ul>
 
-    <h2>Work Experience</h2>
-    <ul>
-        <li><strong>Research Engineer</strong>, CNRS Délégation Centre Est (Sept. 2023 - May 2024)
-            - Development of a visualization interface for molecular dynamics data.</li>
-        <li><strong>University Teacher (ATER)</strong>, Université de Lorraine - Télécom Nancy (Oct. 2022 - Aug. 2023)
-            - Teaching data structure, big data and databases.</li>
-        <li><strong>Head of International Academic Agreements</strong>, Universidad Nacional de Colombia (Oct. 2014 - Sep. 2019)
-            - Negotiation of international student exchange agreements.</li>
-    </ul>
+        <!-- Work Experience -->
+        <h2>Work Experience</h2>
+        <ul>
+          <li><strong>Research Engineer</strong>, CNRS Délégation Centre Est (Sept. 2023 - May 2024)
+              - Developed visualization interfaces for molecular dynamics data.</li>
+          <li><strong>University Teacher (ATER)</strong>, Université de Lorraine - Télécom Nancy (Oct. 2022 - Aug. 2023)
+              - Taught data structures and big data.</li>
+          <li><strong>Head of International Academic Agreements</strong>, Universidad Nacional de Colombia (Oct. 2014 - Sep. 2019)
+              - Managed international student exchange agreements.</li>
+        </ul>
 
-    <h2>Scientific Publications</h2>
-    <!-- Manually add your publications here -->
-    <!-- Example:
-    <ul>
-        <li>"Title of Paper", Journal Name, Year.</li>
-        ...
-    </ul>-->
+        <!-- Scientific Publications Section -->
+         <h2>Scientific Publications</h2>
+         <!-- Add your publications manually here -->
+         <!-- Example:
+         <ul>
+             <li>"Title of Paper", Journal Name, Year.</li>
+             ...
+         </ul>-->
+        
+         <!-- Google Scholar Button -->
+         <h2>Google Scholar Profile</h2>
+         <p>Check out my scientific publications and citations on my Google Scholar profile:</p>
+         <a href="https://scholar.google.com/citations?hl=fr&user=CNbMzuQAAAAJ" target="_blank" class="button">Visit My Google Scholar</a>
 
-    <h2>Google Scholar Profile</h2>
-    <p>Check out my scientific publications and citations on my Google Scholar profile:</p>
-    <a href="https://scholar.google.com/citations?hl=fr&user=CNbMzuQAAAAJ" target="_blank" class="button">Visit My Google Scholar</a>
-    
+    </div><!-- End of container -->
+
+    <!-- Footer -->
+    <footer>&copy; Diego Amaya | All Rights Reserved | Designed in HTML & CSS</footer>
+
 </body>
 </html>
