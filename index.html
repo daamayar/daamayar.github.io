@@ -10,6 +10,27 @@
         p { line-height: 1.6; }
         ul { list-style-type: none; padding: 0; }
         li { margin-bottom: 10px; }
+
+        /* Button styling */
+        .button {
+            display: inline-block;
+            background-color: #4CAF50; /* Green background */
+            color: white; /* White text */
+            padding: 10px 20px; /* Padding for size */
+            font-size: 16px; /* Font size */
+            text-align: center; /* Center text */
+            text-decoration: none; /* Remove underline */
+            border-radius: 5px; /* Rounded corners */
+            border: none; /* No border */
+            cursor: pointer; /* Pointer on hover */
+            transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+        }
+
+        .button:hover {
+            background-color: #45a049; /* Darker green on hover */
+            transform: scale(1.05); /* Slight zoom effect on hover */
+        }
+
     </style>
 </head>
 <body>
@@ -18,7 +39,6 @@
 
     <h2>Contact Information</h2>
     <p>Email: daamayar@gmail.com</p>
-    <p>Phone: +33 6 0610286447</p>
     <p>Location: Nancy, France</p>
 
     <h2>Languages</h2>
@@ -66,6 +86,10 @@
         <li>"Title of Paper", Journal Name, Year.</li>
         ...
     </ul>-->
+
+    <h2>Google Scholar Profile</h2>
+    <p>Check out my scientific publications and citations on my Google Scholar profile:</p>
+    <a href="https://scholar.google.com/citations?hl=fr&user=CNbMzuQAAAAJ" target="_blank" class="button">Visit My Google Scholar</a>
     
 </body>
 </html>
