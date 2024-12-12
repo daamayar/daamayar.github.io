@@ -81,16 +81,16 @@ flickr_id: # your flickr id
 github_username: daamayar # your GitHub user name
 gitlab_username: # your GitLab user name
 ieee_id: # your ieeexplore.ieee.org/author/id
-inspirehep_id: 1010907 # Inspire HEP author ID
+inspirehep_id: # Inspire HEP author ID
 instagram_id: # your instagram id
 kaggle_id: # your kaggle id
 keybase_username: # your keybase user name
 lastfm_id: # your lastfm id
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
-linkedin_username: www.linkedin.com/in/diego-amaya-ramirez-bb76069a # your LinkedIn user name
+linkedin_username: diego-amaya-ramirez-bb76069a # your LinkedIn user name
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 medium_username: # your Medium username
-orcid_id: https://orcid.org/0000-0002-3418-2522 # your ORCID ID
+orcid_id: 0000-0002-3418-2522 # your ORCID ID
 osf_id: # your OSF ID
 pinterest_id: # your pinterest id
 publons_id: # your ID on Publons
@@ -134,7 +134,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: blog al-folio # blog_name will be displayed in your blog page
+blog_name: al-folio # blog_name will be displayed in your blog page
 blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
