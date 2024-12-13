@@ -2,4 +2,4 @@
 
 Link : https://daamayar.github.io
 
-Web site generated from [alshedivat/al-folio](https://github.com/alshedivat/al-folio)
+Website generated from [alshedivat/al-folio](https://github.com/alshedivat/al-folio)
