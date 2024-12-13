@@ -54,7 +54,7 @@
     {
       "institution": "Universidad Nacional de Colombia",
       "location": "Bogota, Colombia",
-      "area": "Bioinfirmatics",
+      "area": "Bioinformatics",
       "studyType": "Master in Biomedical Engineering",
       "startDate": "2017-02-01",
       "endDate": "2019-06-01",
@@ -189,14 +189,14 @@
   ],
   "references": [
     {
-      "name": "Professor Jean-Luc Taupin",
+      "name": "Professor Jean-Luc Taupin (jean-luc.taupin at aphp.fr)",
       "icon": "fa-solid fa-thumbtack",
       "email": "jean-luc.taupin at aphp.fr",
       "location": "Laboratoire d'Immunologie et d'Histocompabilité, Hôpital Saint Louis, Paris, France "
 
     },
     {
-      "name": "Dr. Marie-Dominique Devignes",
+      "name": "Dr. Marie-Dominique Devignes (marie-dominique.devignes at loria.fr)",
       "icon": "fa-solid fa-thumbtack",
       "email": "marie-dominique.devignes at loria.fr",
       "location": "CAPSID team, LORIA/INRIA Grand Est, Nancy, France"
