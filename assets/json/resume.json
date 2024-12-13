@@ -1,10 +1,8 @@
 {
   "basics": {
     "name": "Diego Amaya-Ramirez",
-    "label": "Scientist",
     "image": "",
     "email": "daamayar@gmail.com",
-    "phone": "(912) 123-4567",
     "summary": "Scientist specialized in bioinformatics and IA",
     "location": {
       "address": "",
@@ -52,6 +50,26 @@
       "endDate": "2024-07-12",
       "score": "10",
       "highlights": ["Structural bioinformatics", "Machine learning", "IA", "HLA compatibility", "Organ transplantation"]
+    },
+    {
+      "institution": "Universidad Nacional de Colombia",
+      "location": "Bogota, Colombia",
+      "area": "Bioinfirmatics",
+      "studyType": "Master in Biomedical Engineering",
+      "startDate": "2017-02-01",
+      "endDate": "2019-06-01",
+      "score": "10",
+      "highlights": ["Omics", "Neo-antigens", "Molecular docking", "Personalized cancer vaccines"]
+    },
+    {
+      "institution": "Universidad Nacional de Colombia",
+      "location": "Manizales, Colombia",
+      "area": "Biophysics",
+      "studyType": "Physics engineering",
+      "startDate": "2008-02-01",
+      "endDate": "2014-08-01",
+      "score": "10",
+      "highlights": ["Academic exchange: 2 years at INSA Toulouse - France  (Sep. 2012 - Aug. 2014)"]
     }
   ],
   "publications": [
@@ -172,7 +190,7 @@
   "references": [
     {
       "name": "Professor Jean-Luc Taupin",
-      "icon": "fa-solid fa-laptop",
+      "icon": "fa-solid fa-thumbtack",
       "email": "jean-luc.taupin at aphp.fr",
       "location": "Laboratoire d'Immunologie et d'Histocompabilité, Hôpital Saint Louis, Paris, France "
 
