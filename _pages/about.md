@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: right
-  image: photo_CV_2_fond_blanc_5.png
+  image: new_photo_CV_fond_blanc_small.png
   image_circular: false # crops the image to make it circular
   #more_info: >
   #  <p>555 your office number</p>
