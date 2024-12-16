@@ -22,4 +22,4 @@ Passionate about the potential of bioinformatics to positively impact healthcare
 
 My professional experience spans multiple roles, including a Research Engineer position at CNRS where I developed expertise in data visualization and programming through the development of a molecular dynamics visualization interface. As a Teaching Assistant at the University of Lorraine, I delivered courses in data structures and big data. Earlier in my career, as International Academic Affairs Coordinator, I developed strong team management and negotiation skills. 
 
-Currently, I am seeking new professional challenges where I can leverage my expertise in bioinformatics and data science to make meaningful contributions to healthcare innovation and patient well-being.
+Currently, I am seeking new professional challenges where I can leverage my expertise in bioinformatics and artificial intelligence to make meaningful contributions to healthcare innovation and patient well-being.
