@@ -1,0 +1,14 @@
+# These legacy/demo links are either obsolete or block automated link checks.
+# Keep them in the documentation, but do not fail CI on these known URLs.
+exclude = [
+  '^/al-folio/publications/$',
+  '^https://unsplash\.com/?$',
+  '^https://ubuntu\.com/tutorials/install-ubuntu-on-wsl2-on-windows-11-with-gui-support/?$',
+  '^https://github\.com/alshedivat/al-folio/blob/main/INSTALL\.md#local-setup-with-development-containers$',
+  '^https://github\.com/alshedivat/al-folio/blob/main/FAQ\.md#when-i-manually-run-the-lighthouse-badger-workflow-it-fails-with-error-input-required-and-not-supplied-token-how-do-i-fix-that$',
+  '^https://github\.com/alshedivat/al-folio/blob/main/FAQ\.md#my-code-runs-fine-locally-but-when-i-create-a-commit-and-submit-it-it-fails-with-prettier-code-formatter-workflow-run-failed-for-main-branch-how-do-i-fix-that$',
+  '^https://github\.com/alshedivat/al-folio/blob/main/_sass/_base\.scss$',
+  '^https://stackoverflow\.com/questions/34987908/embed-a-code-block-in-a-list-item-with-proper-indentation-in-kramdown/38090598#38090598$',
+  '^http://www\.intmath\.com/cg5/katex-mathjax-comparison\.php$',
+  '^https://www\.altmetric\.com/?$',
+]
