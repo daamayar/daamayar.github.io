@@ -14,10 +14,17 @@
   },
   "work": [
     {
+      "name": "Association Allo-Inf / APHP / post-doc LORIA",
+      "position": "Research Engineer",
+      "startDate": "2024-10-01",
+      "summary": "Exploring AI-based approaches for improving matching processes in organ transplantation.",
+      "highlights": ["AI/machine learning", "HLA compatibility"]
+    },
+    {
       "name": "CNRS Centre Est",
       "position": "Research engineer",
       "startDate": "2023-09-01",
-      "endDate": "2024-12-31",
+      "endDate": "2024-05-31",
       "summary": "Development of a molecular dynamics data visualization interface to support HLA compatibility assessment in organ transplantation. ",
       "highlights": ["MD data visualization", "HLA compatibility", "Organ transplantation"]
     },
@@ -73,6 +80,18 @@
   ],
   "publications": [
     {
+      "name": "Accelerating Molecular Dynamics with Hydrogen Mass Repartitioning to Prioritize Immunogenic Neoantigens for Cancer Vaccines through Peptide–HLA Binding Free-Energy Calculations",
+      "publisher": "bioRxiv (preprint)",
+      "releaseDate": "2026-10-17",
+      "url": "https://doi.org/10.64898/2026.10.11.751335"
+    },
+    {
+      "name": "The Hunt for HLA-DQ Allogeneic Eplets Is Not Over: Four New Ones, Including a Cross-Chain Eplet",
+      "publisher": "HLA",
+      "releaseDate": "2025-09-12",
+      "url": "https://doi.org/10.1111/tan.70386"
+    },
+    {
       "name": "HLA-EpiCheck: novel approach for HLA B-cell epitope prediction using 3D-surface patch descriptors derived from molecular dynamic simulations",
       "publisher": "Bioinformatics Advances",
       "releaseDate": "2024-12-05",
@@ -89,6 +108,12 @@
       "publisher": "Vaccines",
       "releaseDate": "2023-06-29",
       "url": "https://doi.org/10.3390/vaccines11071174"
+    },
+    {
+      "name": "Personalized neoantigen-based cancer immunotherapy. A literature review",
+      "publisher": "Revista de la Facultad de Medicina",
+      "releaseDate": "2021-07-01",
+      "url": "https://doi.org/10.15446/revfacmed.v69n3.81633"
     }
   ],
   "skills": [
@@ -145,7 +170,8 @@
       "name": "Molecular Dynamics Simulations",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "NAMD (Advanced)"
+        "NAMD (Advanced)",
+        "GROMACS (Intermediate)"
       ]
     },
     {
@@ -165,12 +191,12 @@
     },
     {
       "language": "French",
-      "fluency": "Advanced",
+      "fluency": "Fluent speaker",
       "icon": ""
     },
     {
       "language": "Spanish",
-      "fluency": "Native speaker",
+      "fluency": "Fluent speaker",
       "icon": ""
     }
   ],
@@ -195,9 +221,9 @@
 
     },
     {
-      "name": "Dr. Marie-Dominique Devignes (marie-dominique.devignes at loria.fr)",
+      "name": "Dr. Marie-Dominique Devignes (mddevignes at gmail.com)",
       "icon": "fa-solid fa-thumbtack",
-      "email": "marie-dominique.devignes at loria.fr",
+      "email": "mddevignes at gmail.com",
       "location": "CAPSID team, LORIA/INRIA Grand Est, Nancy, France"
     }
   ]
